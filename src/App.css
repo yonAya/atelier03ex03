@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: whitesmoke;
+}
+
+.biblio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80vw;
+  gap: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+  margin: 0;
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(18, 18, 107);
+  font-weight: bold;
+}
